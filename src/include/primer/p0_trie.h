@@ -220,8 +220,7 @@ class TrieNodeWithValue : public TrieNode {
    * @param key_char Key char of this node
    * @param value Value of this node
    */
-  TrieNodeWithValue(char key_char, T value) {
-    this = TrieNode(key_char);
+  TrieNodeWithValue(char key_char, T value) : TrieNode(key_char) {
     value_ = value;
     is_end_ = true;
   }
