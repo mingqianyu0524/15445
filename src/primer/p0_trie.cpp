@@ -1,5 +1,4 @@
 #include "primer/p0_trie.h"
-using namespace bustub;
 
 // This is a placeholder file for clang-tidy check.
 //
